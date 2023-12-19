@@ -1,0 +1,33 @@
+# .dockerignore
+
+README.md
+
+# Exclude version control files
+.git
+.gitignore
+
+# Exclude local development files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude any build artifacts or temporary files
+*.db
+*.log
+*.sqlite
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude virtual environment files
+.venv/
+.env
+
+# Exclude Docker-specific files
+Dockerfile
+.dockerignore
+
+# Exclude any files or directories specific to your development environment
+.vscode/
+.idea/
