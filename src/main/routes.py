@@ -11,7 +11,7 @@ main = Blueprint('main', __name__)
 @main.route('/', methods=['GET', 'POST'])
 def index():
     # get request
-    return 'Hello World!'
+    return 'Exercise Recommender API'
 
 @main.route('/predict', methods=['POST'])
 def predict():
